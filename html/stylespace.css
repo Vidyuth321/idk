@@ -1,0 +1,20 @@
+body{
+     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+     background-color: blue;
+     color:aqua
+}
+h1{
+    color: red;
+}
+a{
+    color:orange
+}
+a:hover{
+    color:yellow
+}
+p{
+    color:violet
+}
+a::after{
+content:"😁😁"
+}
