@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <p id="result"></p>
+    <script>
+        function findMax() {
+            var i;
+            var max = 0; i
+            for (i = 0; i < arguments.length; i++) {
+                if (arguments[i] > max) {
+                    max = arguments[i];
+                }
+            }
+            return max;
+        }
+        document.getElementById("result").innerHTML = findMax(2, 3, 5, 676767676767676767)
+    </script>
+</body>
+
+</html>
