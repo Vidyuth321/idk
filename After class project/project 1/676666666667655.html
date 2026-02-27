@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <p id="hello"></p>
+    <p id="hi"></p>
+    <p id="welcome"></p>
+    <script>
+        class Student{
+            constructor(name) {
+                this.studentName = name;
+            }
+            static hello() {
+                return "Hello!!";
+            }
+        }
+        Myname = new Student("Hulk")
+document.getElementById("hello").innerHTML = Student.hello()
+    </script>
+    </body>
+</html>
