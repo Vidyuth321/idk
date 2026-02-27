@@ -1,0 +1,37 @@
+
+    <!DOCTYPE html>
+    <html>
+    
+    <body>
+        <h2>67</h2>
+        <p> 67 is the best 67</p>
+        <p>67 is the best 67767676767676766</p>
+        <p id="details"></p>
+        <script>
+            class Car {
+                constructor(brand) {
+                    this.carname = brand;
+                }
+                present() {
+                    return 'I have a ' + this.carname;
+                }
+            }
+
+            class Model extends Car {
+                constructor(brand, mod) {
+                    super(brand);
+                    this.model = mod;
+                }
+
+                show() {
+                    return this.present() + ', it is a ' + this.model
+                }
+
+            }
+
+            let myCar = new Model("Lucid", "Gravity");
+            document.getElementById("details").innerHTML = myCar.show();
+        </script>
+    </body>
+    
+    </html>
