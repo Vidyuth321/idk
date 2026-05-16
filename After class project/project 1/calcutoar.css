@@ -100,3 +100,46 @@ body {
     outline: 0;
 
 }
+#history{
+    text-align:right ;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: aqua;
+}
+
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+
+}
+
+button:nth-child(4){
+    font-size: 20px;
+    background-color: blue;
+}
+
+button:nth-child(8){
+    font-size: 20px;
+    background-color: bisque;
+}
+
+
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: rgb(144, 33, 33);
+}
+
+
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: rgb(196, 255, 231);
+}
+
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: rgb(185, 108, 13);
+}
